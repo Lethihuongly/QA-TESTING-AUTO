@@ -1,0 +1,56 @@
+{
+  "featureId": "02-03",
+  "featureName": "Tim-kiem-loc-phan-trang",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "filterForm": {
+      "css": "aside form",
+      "role": "form",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Form bộ lọc bên trái trang /matches"
+    },
+    "searchKeywordInput": {
+      "css": "aside form input[placeholder=\"Từ khóa đội hoặc trận đấu\"]",
+      "role": "textbox",
+      "text": "Từ khóa đội hoặc trận đấu",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Ô nhập từ khóa tìm kiếm đội hoặc trận đấu"
+    },
+    "leagueFilterCombobox": {
+      "css": "aside form input[placeholder=\"Tất cả giải đấu\"]",
+      "role": "combobox",
+      "text": "Tất cả giải đấu",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Combobox lọc theo giải đấu"
+    },
+    "paginationNav": {
+      "css": "nav[aria-label=\"pagination\"]",
+      "role": "navigation",
+      "text": "pagination",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh phân trang danh sách trận đấu"
+    },
+    "prevPageLink": {
+      "css": "nav[aria-label=\"pagination\"] a[aria-label=\"Go to previous page\"]",
+      "role": "link",
+      "text": "Trước",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút về trang trước"
+    },
+    "nextPageLink": {
+      "css": "nav[aria-label=\"pagination\"] a[aria-label=\"Go to next page\"]",
+      "role": "link",
+      "text": "Tiếp",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút sang trang tiếp theo"
+    }
+  }
+}

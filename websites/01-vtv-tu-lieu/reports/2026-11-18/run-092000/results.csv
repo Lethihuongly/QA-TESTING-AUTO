@@ -1,0 +1,35 @@
+Case_ID,Chuc_nang,Mo_ta,Ket_qua,Thoi_gian,Ghi_chu
+01-01-01,Dang-nhap,Truy cap trang dang nhap he thong,PASS,2026-11-18 09:17:35,Dieu huong ve /login?next=%2F form username password submit day du
+01-01-02,Dang-nhap,Dang nhap hop le luong chinh,BLOCKED,2026-11-18 09:17:35,Phien dang nhap het han - cho nguoi dung dang nhap thu cong tren Chrome MCP
+01-01-03,Dang-nhap,Kiem tra trang thai validation form rong,PASS,2026-11-18 09:17:38,checkValidity()=false usernameMissing=true form chan submit dung spec
+01-02-01,Trang-chu,Giao dien trang chu sau dang nhap,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-02-02,Trang-chu,Chon the goi y tim kiem trang chu,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-02-03,Trang-chu,Nut Initiate search khi o tim kiem trong,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-03-01,Tim-kiem,Tim kiem tu khoa co ket qua,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-03-02,Tim-kiem,Phan trang ket qua tim kiem BUG-01-01,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-03-03,Tim-kiem,Tu khoa rong hoac khong ton tai,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-04-01,Danh-sach-tu-lieu,Truy cap Quan ly kho /warehouse-management,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-04-02,Danh-sach-tu-lieu,Loc tu lieu theo ten va the loai,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-04-03,Danh-sach-tu-lieu,Phan trang danh sach tu lieu,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-05-01,Chi-tiet-video,Mo chi tiet video va playback HLS,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-05-02,Chi-tiet-video,Chon cac moc thoi gian phan doan,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-05-03,Chi-tiet-video,Truy cap video ID khong ton tai 404,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-06-01,Phan-tich-video,Chuyen tab Tom tat va Canh,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-06-02,Phan-tich-video,Tab Khuon mat va OCR van ban,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-06-03,Phan-tich-video,Tab Loi thoai speech-to-text,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-07-01,Lich-su-upload,Danh sach lich su tai len video,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-07-02,Lich-su-upload,Loc lich su tai len theo trang thai,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-07-03,Lich-su-upload,Phan trang lich su upload,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-08-01,Khuon-mat-dia-danh,Danh sach khuon mat nhan dien,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-08-02,Khuon-mat-dia-danh,Danh sach dia danh va loc Hoi An,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-08-03,Khuon-mat-dia-danh,Loc khuon mat dia danh khong ton tai,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-09-01,Tro-ly-hoi-dap,Mo khung tro ly hoi dap AI,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-09-02,Tro-ly-hoi-dap,Gui cau hoi goi y BUG-01-02,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-09-03,Tro-ly-hoi-dap,Nhap cau hoi tuy y va chan submit rong,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-10-01,Upload,Mo dialog Tai Video Len va nut Close,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-10-02,Upload,Upload video tu lieu that,NOT_RUN,2026-11-18 09:17:38,Ngoai pham vi chi doc
+01-10-03,Upload,Kiem tra tien trinh upload chunk,NOT_RUN,2026-11-18 09:17:38,Ngoai pham vi chi doc
+01-11-01,Tai-khoan-dang-xuat,Mo menu tai khoan nguoi dung,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-11-02,Tai-khoan-dang-xuat,Thong tin tai khoan nguoi dung,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+01-11-03,Tai-khoan-dang-xuat,Thuc hien dang xuat he thong,BLOCKED,2026-11-18 09:17:38,Cho dang nhap lai tren Chrome MCP de giai phong
+

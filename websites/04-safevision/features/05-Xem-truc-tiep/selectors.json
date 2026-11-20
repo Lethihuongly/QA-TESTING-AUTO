@@ -1,0 +1,40 @@
+{
+  "featureId": "04-05",
+  "featureName": "Xem-truc-tiep",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "streamVideos": {
+      "css": "main video",
+      "role": "video",
+      "text": "",
+      "verified": true,
+      "matchCount": 2,
+      "notes": "2 phần tử video: LUỒNG STREAM GỐC và LUỒNG DELAYED — ĐANG GIÁM SÁT"
+    },
+    "unmuteButton": {
+      "css": "button[title=\"Bật âm thanh (Unmute)\"]",
+      "role": "button",
+      "text": "Bật âm thanh (Unmute)",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút bật/tắt âm thanh luồng phát"
+    },
+    "telemetryHudButton": {
+      "css": "button[title=\"Bật/Tắt HLS Telemetry Monitor HUD\"]",
+      "role": "button",
+      "text": "Bật/Tắt HLS Telemetry Monitor HUD",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút bật/tắt bảng thông số HLS Telemetry HUD"
+    },
+    "fullscreenButton": {
+      "css": "button[title=\"Toàn màn hình (Fullscreen)\"]",
+      "role": "button",
+      "text": "Toàn màn hình (Fullscreen)",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút phóng toàn màn hình"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+ID,Chuc_nang,Uu_tien,Pham_vi,Xac_nhan_UI,Trang_thai
+01-01,Dang-nhap,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+01-02,Trang-chu,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+01-03,Tim-kiem,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+01-04,Danh-sach-tu-lieu,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+01-05,Chi-tiet-video,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+01-06,Phan-tich-video,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+01-07,Lich-su-upload,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+01-08,Khuon-mat-dia-danh,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+01-09,Tro-ly-hoi-dap,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+01-10,Upload,P1,Thu-nghiem-co-kiem-soat,DA_XAC_NHAN,NOT_RUN
+01-11,Tai-khoan-dang-xuat,P1,Doc-du-lieu,DA_XAC_NHAN,PASS

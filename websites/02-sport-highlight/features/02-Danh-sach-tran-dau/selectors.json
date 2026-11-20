@@ -1,0 +1,32 @@
+{
+  "featureId": "02-02",
+  "featureName": "Danh-sach-tran-dau",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "manageCatalogLink": {
+      "css": "a[href=\"/manage\"]",
+      "role": "link",
+      "text": "Danh mục",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Link mở trang quản lý danh mục giải đấu/kênh phát"
+    },
+    "refreshMatchesButton": {
+      "css": "button[aria-label=\"Làm mới danh sách trận\"]",
+      "role": "button",
+      "text": "Làm mới danh sách trận",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút làm mới danh sách trận đấu"
+    },
+    "matchCards": {
+      "css": "a[href^=\"/matches/\"]",
+      "role": "link",
+      "text": "",
+      "verified": true,
+      "matchCount": 12,
+      "notes": "Danh sách 12 thẻ trận đấu trên mỗi trang"
+    }
+  }
+}

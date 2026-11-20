@@ -1,0 +1,9 @@
+feature_id,feature_folder,feature_name,priority,case_count,status,last_run,pass_count,fail_count,blocked_count,notes
+02-01,01-Dang-nhap,Đăng nhập,P0,3,PASS,2026-11-04 11:44:00,3,0,0,Đã kiểm thử hiển thị form + required validation + đăng nhập thành công
+02-02,02-Danh-sach-tran-dau,Danh sách trận đấu,P0,3,PASS,2026-11-04 11:44:00,3,0,0,Hiển thị 213 trận đấu (12 trận/trang) và điều hướng vào chi tiết
+02-03,03-Tim-kiem-loc-phan-trang,Tìm kiếm lọc và phân trang,P1,3,PASS,2026-11-04 11:44:00,3,0,0,Tìm Real Madrid (12 trận) + từ khóa rỗng (0 trận) + Đặt lại + phân trang Tiếp/Trước
+02-04,04-Chi-tiet-tran-dau,Chi tiết trận đấu,P0,3,PASS,2026-11-04 11:44:00,3,0,0,Tất cả trận mới (Feyenoord vs Inter Milan: 148 đoạn; Bodo/Glimt vs Lille: 102 đoạn) đã sinh phân đoạn AI đầy đủ; URL không tồn tại hiển thị đúng toast 'Đã xảy ra lỗi: Match was not found.'
+02-05,05-Phat-video,Phát video,P0,3,PASS,2026-11-04 11:44:00,3,0,0,Phát video 1080p mượt (readyState=4) + chọn phân đoạn AI + disable control khi 404
+02-06,06-Highlight,Highlight,P1,3,PASS,2026-11-04 11:44:00,3,0,0,Xem dialog Danh sách Highlight (Benfica vs Celtic có 2 bản xuất + YouTube link)
+02-07,07-Upload-ghi-hinh,Upload / Ghi hình trận đấu,P2,3,NOT_RUN,2026-11-04 11:44:00,0,0,0,Đã khảo sát read-only dialog Tạo trận đấu; không chạy tạo trận/ghi hình ở lượt chỉ đọc
+02-08,08-Tai-khoan-dang-xuat,Tài khoản & Đăng xuất,P1,3,PASS,2026-11-04 11:44:00,3,0,0,Mở menu tài khoản + Đăng xuất + chặn truy cập lại /matches sau đăng xuất

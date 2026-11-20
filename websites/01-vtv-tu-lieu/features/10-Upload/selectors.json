@@ -1,0 +1,17 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/warehouse-management",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "imageSearchUploadDialogButton",
+      "type": "css",
+      "selector": "main button[aria-label=\"Upload content\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút mở hộp thoại tải ảnh tìm kiếm trên Trang chủ"
+    }
+  ],
+  "note": "Chức năng Upload dữ liệu mới không thực thi trong lượt kiểm thử chỉ đọc."
+}

@@ -1,0 +1,48 @@
+{
+  "featureId": "02-07",
+  "featureName": "Upload-ghi-hinh",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "createMatchDialog": {
+      "css": "[role=\"dialog\"]",
+      "role": "dialog",
+      "text": "Tạo trận đấu",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Hộp thoại Tạo trận đấu khi nhấn nút Trận mới"
+    },
+    "teamAInput": {
+      "css": "[role=\"dialog\"] input[name=\"team_a\"]",
+      "role": "textbox",
+      "text": "Đội A",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Ô nhập tên Đội A"
+    },
+    "teamBInput": {
+      "css": "[role=\"dialog\"] input[name=\"team_b\"]",
+      "role": "textbox",
+      "text": "Đội B",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Ô nhập tên Đội B"
+    },
+    "channelCombobox": {
+      "css": "[role=\"dialog\"] input[placeholder=\"Tìm kênh phát...\"]",
+      "role": "combobox",
+      "text": "Tìm kênh phát...",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Combobox chọn kênh phát ghi hình"
+    },
+    "leagueCombobox": {
+      "css": "[role=\"dialog\"] input[placeholder=\"Tìm giải đấu...\"]",
+      "role": "combobox",
+      "text": "Tìm giải đấu...",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Combobox chọn giải đấu"
+    }
+  }
+}

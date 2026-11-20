@@ -1,0 +1,40 @@
+{
+  "featureId": "04-03",
+  "featureName": "Danh-sach-kenh",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "channelsNavLink": {
+      "css": "aside nav a[href=\"/channels\"]",
+      "role": "link",
+      "text": "Kênh phát Quản lý kênh truyền hình",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Menu Kênh phát trên thanh sidebar"
+    },
+    "heading": {
+      "css": "main h1",
+      "role": "heading",
+      "text": "Kênh phát",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Tiêu đề trang danh sách kênh"
+    },
+    "channelCardHeadings": {
+      "css": "main h3",
+      "role": "heading",
+      "text": "",
+      "verified": true,
+      "matchCount": 9,
+      "notes": "Tiêu đề tên kênh trên 9 thẻ kênh (VTV1..VTV10)"
+    },
+    "channelDetailLinks": {
+      "css": "main a[href^=\"/channels/\"]",
+      "role": "link",
+      "text": "Chi tiết",
+      "verified": true,
+      "matchCount": 9,
+      "notes": "9 liên kết Chi tiết mở trang giám sát từng kênh"
+    }
+  }
+}

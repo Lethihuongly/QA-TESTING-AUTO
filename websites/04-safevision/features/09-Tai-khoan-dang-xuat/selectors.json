@@ -1,0 +1,24 @@
+{
+  "featureId": "04-09",
+  "featureName": "Tai-khoan-dang-xuat",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "themeToggleButton": {
+      "css": "header button[title*=\"chế độ\"], header button[aria-label*=\"chế độ\"]",
+      "role": "button",
+      "text": "Chuyển sang chế độ sáng",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút chuyển chế độ sáng/tối trên thanh header"
+    },
+    "logoutMenuItem": {
+      "css": "[role=\"menuitem\"]",
+      "role": "menuitem",
+      "text": "Đăng xuất",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Mục Đăng xuất khi mở menu tài khoản"
+    }
+  }
+}

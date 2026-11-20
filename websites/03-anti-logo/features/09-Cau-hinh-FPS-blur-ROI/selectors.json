@@ -1,0 +1,64 @@
+{
+  "featureId": "03-09",
+  "featureName": "Cau-hinh-FPS-blur-ROI",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "targetFpsSlider": {
+      "css": "input#targetFps",
+      "role": "slider",
+      "text": "Tăng - giảm FPS",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh trượt điều chỉnh FPS (0.2 - 20 FPS)"
+    },
+    "blurKernelSlider": {
+      "css": "input#blurKernel",
+      "role": "slider",
+      "text": "Độ mờ",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh trượt điều chỉnh độ mờ (3 - 51 px)"
+    },
+    "protectRoiEnableCheckbox": {
+      "css": "input#protectRoiEnable",
+      "role": "checkbox",
+      "text": "Protect ROI Enable",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Checkbox bật/tắt vùng bảo vệ ROI"
+    },
+    "protectRoiXSlider": {
+      "css": "input#protectRoiX",
+      "role": "slider",
+      "text": "Protect ROI X",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh trượt tọa độ X của Protect ROI"
+    },
+    "protectRoiYSlider": {
+      "css": "input#protectRoiY",
+      "role": "slider",
+      "text": "Protect ROI Y",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh trượt tọa độ Y của Protect ROI"
+    },
+    "protectRoiWSlider": {
+      "css": "input#protectRoiW",
+      "role": "slider",
+      "text": "Protect ROI W",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh trượt chiều rộng W của Protect ROI"
+    },
+    "protectRoiHSlider": {
+      "css": "input#protectRoiH",
+      "role": "slider",
+      "text": "Protect ROI H",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh trượt chiều cao H của Protect ROI"
+    }
+  }
+}

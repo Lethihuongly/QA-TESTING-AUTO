@@ -1,0 +1,65 @@
+{
+  "featureId": "03-13",
+  "featureName": "Tiep-tuc-gan-nhan-va-Phien-video",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-18",
+  "selectors": {
+    "curationResumeBar": {
+      "css": "div[data-curation-resume=\"1\"]",
+      "role": "generic",
+      "text": "CH1 — Tiếp tục gán nhãn",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh thông báo tiến độ và checkpoint gán nhãn"
+    },
+    "btnTiepTuc": {
+      "css": "div[data-curation-resume=\"1\"] button:nth-of-type(1)",
+      "role": "button",
+      "text": "Tiếp tục",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút mở modal review tại frame checkpoint gần nhất"
+    },
+    "btnFrameChinhSuaCuoi": {
+      "css": "div[data-curation-resume=\"1\"] button:nth-of-type(2)",
+      "role": "button",
+      "text": "Frame chỉnh sửa cuối",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút nhảy tới frame được lưu BBox cuối cùng"
+    },
+    "btnDaReview": {
+      "css": "div[data-curation-resume=\"1\"] button:nth-of-type(3)",
+      "role": "button",
+      "text": "Đã review",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút mở frame đã review đầu tiên"
+    },
+    "btnChuaReviewDauTien": {
+      "css": "div[data-curation-resume=\"1\"] button:nth-of-type(4)",
+      "role": "button",
+      "text": "Chưa review đầu tiên",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút gọi API navigate để nhảy tới frame chưa review kế tiếp"
+    },
+    "curationQuickViewSection": {
+      "css": "section[data-curation-quick-view=\"1\"]",
+      "role": "region",
+      "text": "CH1 — Phiên video:",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Khung quản lý và chọn phiên video theo kênh"
+    },
+    "curationSessionSelect": {
+      "css": "section[data-curation-quick-view=\"1\"] select",
+      "role": "combobox",
+      "text": "Chọn phiên",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Combobox danh sách phiên (generations) của video nguồn"
+    }
+  }
+}
+

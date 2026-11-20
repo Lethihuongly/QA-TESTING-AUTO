@@ -1,0 +1,89 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "header",
+      "type": "css",
+      "selector": "header",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Thanh điều hướng trên cùng"
+    },
+    {
+      "name": "toggleThemeButton",
+      "type": "css",
+      "selector": "header button[aria-label=\"Toggle theme\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút đổi giao diện sáng/tối"
+    },
+    {
+      "name": "notificationsButton",
+      "type": "css",
+      "selector": "header button[aria-label=\"Notifications\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút thông báo"
+    },
+    {
+      "name": "uploadHistoryButton",
+      "type": "css",
+      "selector": "header button[title=\"Xem lịch sử upload\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút mở trang Lịch sử upload (/warehouse-management)"
+    },
+    {
+      "name": "userAccountButton",
+      "type": "css",
+      "selector": "header button[aria-label=\"Tài khoản người dùng\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút mở menu tài khoản người dùng"
+    },
+    {
+      "name": "heroHeading",
+      "type": "css",
+      "selector": "main h1",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Tiêu đề chính CMC VIDEO MINER"
+    },
+    {
+      "name": "homeSearchInput",
+      "type": "css",
+      "selector": "main input[aria-label=\"Search input\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Ô nhập từ khóa tìm kiếm tại Trang chủ"
+    },
+    {
+      "name": "homeInitiateSearchButton",
+      "type": "css",
+      "selector": "main button[aria-label=\"Initiate search\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút kích hoạt tìm kiếm (disabled khi ô tìm kiếm rỗng)"
+    },
+    {
+      "name": "homeImageSearchUploadButton",
+      "type": "css",
+      "selector": "main button[aria-label=\"Upload content\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút mở hộp thoại Tìm kiếm bằng hình ảnh khi ô tìm kiếm đang trống"
+    }
+  ],
+  "note": "Đã kiểm chứng trực tiếp bằng evaluate_script trên trang chủ https://vtvtulieu.cmcati.vn/."
+}

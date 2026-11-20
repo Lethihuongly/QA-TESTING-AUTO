@@ -1,0 +1,71 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/warehouse-management",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "pageHeading",
+      "type": "css",
+      "selector": "main h1",
+      "matchCount": 1,
+      "page": "/warehouse-management",
+      "verifiedDate": "2026-11-03",
+      "note": "Tiêu đề trang danh sách tư liệu / lịch sử upload"
+    },
+    {
+      "name": "videoTable",
+      "type": "css",
+      "selector": "table",
+      "matchCount": 1,
+      "page": "/warehouse-management",
+      "verifiedDate": "2026-11-03",
+      "note": "Bảng danh sách video tư liệu"
+    },
+    {
+      "name": "videoTableHeaders",
+      "type": "css",
+      "selector": "table thead tr th",
+      "matchCount": 9,
+      "page": "/warehouse-management",
+      "verifiedDate": "2026-11-03",
+      "note": "Các cột tiêu đề của bảng danh sách video"
+    },
+    {
+      "name": "videoTableRows",
+      "type": "css",
+      "selector": "table tbody tr",
+      "matchCount": 6,
+      "page": "/warehouse-management",
+      "verifiedDate": "2026-11-03",
+      "note": "Các dòng video (tối đa 6 dòng mỗi trang)"
+    },
+    {
+      "name": "paginationNav",
+      "type": "css",
+      "selector": "nav[aria-label=\"pagination\"]",
+      "matchCount": 1,
+      "page": "/warehouse-management",
+      "verifiedDate": "2026-11-03",
+      "note": "Thanh điều hướng phân trang"
+    },
+    {
+      "name": "nextPageLink",
+      "type": "css",
+      "selector": "nav[aria-label=\"pagination\"] a[aria-label=\"Go to next page\"]",
+      "matchCount": 1,
+      "page": "/warehouse-management",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút chuyển sang trang tiếp theo"
+    },
+    {
+      "name": "prevPageLink",
+      "type": "css",
+      "selector": "nav[aria-label=\"pagination\"] a[aria-label=\"Go to previous page\"]",
+      "matchCount": 1,
+      "page": "/warehouse-management",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút quay lại trang trước"
+    }
+  ],
+  "note": "Đã kiểm chứng trực tiếp bằng evaluate_script trên trang /warehouse-management."
+}

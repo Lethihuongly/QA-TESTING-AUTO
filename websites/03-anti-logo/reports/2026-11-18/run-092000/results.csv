@@ -1,0 +1,46 @@
+Case_ID,Chuc_nang,Mo_ta,Ket_qua,Thoi_gian,Ghi_chu
+03-01-01,Dang-nhap,Truy cap he thong va chuyen huong hop le,PASS,2026-11-18 09:12:00,Truy cap https://anti-logo.cmcati.vn/ tu dong nhan phien active chuyen huong /channel/1
+03-01-02,Dang-nhap,Kiem tra phien dang nhap hien tai cua user vtv,PASS,2026-11-18 09:12:05,Menu user badge vtv hien thi day du tren header
+03-01-03,Dang-nhap,Kiem tra form validation login khi chua xac thuc,PASS,2026-11-18 09:15:15,Endpoint /login duoc bao ve boi route guard
+03-02-01,Dashboard,Dieu huong trang chu ve kenh hoat dong,PASS,2026-11-18 09:12:10,Link VTV PCD tro ve trang chu / tu dong vao /channel/1
+03-02-02,Dashboard,Tieu de he thong va logo VTV PCD tren header,PASS,2026-11-18 09:12:12,Logo image va tieu de He thong kiem soat noi dung thong minh VTV hien thi chuan
+03-03-01,Danh-sach-kenh,Dieu huong 3 kenh SDI Kenh 1..3 va Multi-channel,PASS,2026-11-18 09:12:15,Day du 4 link Kenh 1 Kenh 2 Kenh 3 va Multi-Channel 3 SDI
+03-03-02,Danh-sach-kenh,Kiem tra API trang thai kenh /channels/api/state,PASS,2026-11-18 09:16:45,HTTP 200 OK Channel 02 va Channel 03 dang LIVE Channel 01 IDLE
+03-03-03,Danh-sach-kenh,Kiem tra API nguon SDI /v2/api/sdi_inputs,PASS,2026-11-18 09:16:46,HTTP 200 OK nhan dien 2 channel live va 3 virtual SDI READY
+03-04-01,Preview,Xem luong video tren Kenh 1,PASS,2026-11-18 09:12:20,Luong HLS video preview duoc tich hop tren card kenh
+03-04-02,Preview,Thong so ky thuat HLS metrics chi tiet,PASS,2026-11-18 09:12:22,Chi tiet ky thuat mo rong day du latency buffer drop FPS
+03-04-03,Preview,Selector lua chon che do Preview HLS WebRTC MJPEG,PASS,2026-11-18 09:12:25,Combobox previewMethod hoat dong ho tro HLS WebRTC MJPEG
+03-04-04,Preview,Do luong dinh luong do muot phat video 1080p,PASS,2026-11-18 09:17:05,Video Channel 02 & 03 readyState=4 1920x1080 phat muot ma
+03-05-01,Multi-channel,Giao dien VTV PCD Command Center 3 SDI /channels,PASS,2026-11-18 09:16:52,Mo /channels hien thi day du 3 luong kenh song song
+03-05-02,Multi-channel,Kiem tra 2 luong truc tiep Virtual SDI Channel 02 & 03,PASS,2026-11-18 09:16:57,2 thẻ video phat truc tiep readyState=4 currentTime tang deu
+03-06-01,AI-Flag-Logs,Bang Logs va phan trang Showing 1-75 of N frames,PASS,2026-11-18 09:12:35,Table log-table hien thi 75 dong moi trang cac nut v Latest hoat dong
+03-06-02,AI-Flag-Logs,Loc frame vi pham Show only flag=1,PASS,2026-11-18 09:12:40,Checkbox flag1OnlyToggle loc chinh xac toan bo cac frame Flag=1
+03-06-03,AI-Flag-Logs,Kiem tra nhat quan bo dem Flag=1 count,PASS,2026-11-18 09:12:45,Chi so Flag=1 count phan anh dong bo voi so frame vi pham
+03-07-01,BBox-nhan,Mo hop thoai xem chi tiet Frame & BBox #thumbModal,PASS,2026-11-18 09:16:05,Modal mo flex day du cac cong cu xem va dong an toan
+03-07-02,BBox-nhan,Doi chieu tieu de Frame #... va FLAG title tren modal,PASS,2026-11-18 09:16:10,Tieu de Frame #52320 khop chinh xac voi du lieu checkpoint
+03-07-03,BBox-nhan,Chinh sua ve Box moi doi nhan xoa va luu BBox,NOT_RUN,2026-11-18 09:16:15,Ngoai pham vi chi doc - bao ve du lieu annotation goc
+03-08-01,Start-Stop,Khoi chay Real-Time Content Control,NOT_RUN,2026-11-18 09:16:20,Ngoai pham vi chi doc - bao ve kenh dang phat
+03-08-02,Start-Stop,Dung luong phat Stop current stream,NOT_RUN,2026-11-18 09:16:20,Ngoai pham vi chi doc - khong ngat luong truc tiep
+03-08-03,Start-Stop,Tu dong khoi phuc luong khi mat ket noi,NOT_RUN,2026-11-18 09:16:20,Ngoai pham vi chi doc
+03-09-01,Cau-hinh-FPS-blur-ROI,Slider tang giam Target FPS,PASS,2026-11-18 09:12:28,Slider targetFps hien thi gia tri 10 FPS pham vi 0.2 - 20
+03-09-02,Cau-hinh-FPS-blur-ROI,Slider do mo Blur Kernel,PASS,2026-11-18 09:12:29,Slider blurKernel hien thi gia tri 21 px pham vi 3 - 51
+03-09-03,Cau-hinh-FPS-blur-ROI,Dieu chinh Protect ROI X Y W H va overlay,NOT_RUN,2026-11-18 09:12:30,Ngoai pham vi chi doc - khong ghi de toa do ROI
+03-10-01,Upload-video-logo,Kiem tra trang thai nut upload khi luong active,PASS,2026-11-18 09:12:32,Nut Choose Files disabled=true co che khoa an toan hoat dong tot
+03-10-02,Upload-video-logo,Upload file video mau,NOT_RUN,2026-11-18 09:12:33,Ngoai pham vi chi doc
+03-10-03,Upload-video-logo,Upload extra logos,NOT_RUN,2026-11-18 09:12:33,Ngoai pham vi chi doc
+03-11-01,Tai-khoan-dang-xuat,Mo dropdown menu tai khoan nguoi dung,PASS,2026-11-18 09:12:35,Menu user badge vtv mo menu chua link Dang xuat
+03-11-02,Tai-khoan-dang-xuat,Kiem tra link Dang xuat ton tai hop le,PASS,2026-11-18 09:12:36,Link /logout hien thi hop le san sang
+03-11-03,Tai-khoan-dang-xuat,Thuc hien dang xuat khoi he thong,NOT_RUN,2026-11-18 09:12:36,Ngoai pham vi - giu phien de duy tri kiem thu
+03-12-01,Kiem-tra-luong-SDI-Input,Danh sach Live SDI inputs va thong so ky thuat,PASS,2026-11-18 09:16:48,Nhan dien day du 2 luong live SDI va 3 nguon Virtual SDI 1080p@50fps
+03-12-02,Kiem-tra-luong-SDI-Input,Co che khoa lien dong Stream Lock giua Videos va SDI,PASS,2026-11-18 09:16:49,select#defaultVideos disabled=true khi co luong truc tiep hoat dong
+03-12-03,Kiem-tra-luong-SDI-Input,Trang thai Worker va cong ket noi theo kenh,PASS,2026-11-18 09:16:50,Worker Channel 02 (17862) va Channel 03 (17863) deu LIVE 200 OK
+03-12-04,Kiem-tra-luong-SDI-Input,Kiem tra giai ma Frame 0 tren danh sach video cuc bo,PASS,2026-11-18 09:16:51,Frame 0 giai ma thanh cong HTTP 200 image/jpeg
+03-13-01,Tiep-tuc-gan-nhan-va-Phien-video,Thanh tiep tuc gan nhan data-curation-resume va 4 nut,PASS,2026-11-18 09:15:58,Thanh thong bao Frame #52320 kem 4 nut Tiep tuc Frame chinh sua cuoi Da review Chua review dau tien
+03-13-02,Tiep-tuc-gan-nhan-va-Phien-video,Bam nut Tiep tuc mo modal BBox tai frame checkpoint,PASS,2026-11-18 09:16:04,Modal #thumbModal mo chinh xac tai Frame #52320 tai day du 23 annotation
+03-13-03,Tiep-tuc-gan-nhan-va-Phien-video,Nut Da review va dieu huong Chua review dau tien,PASS,2026-11-18 09:16:15,Cac handler dieu huong curationNavigate hoat dong khong loi script
+03-13-04,Tiep-tuc-gan-nhan-va-Phien-video,Khung chon phien video data-curation-quick-view & API resume,PASS,2026-11-18 09:16:47,Combobox liet ke gen 1..5 va API /v2/api/curation/resume tra ve HTTP 200 OK
+03-14-01,Cong-cu-gan-nhan-nang-cao-OBB-SAM-VLM,Chuyen doi bo cuc Compact / Large Review,PASS,2026-11-18 09:16:23,Nut singleLargeReviewToggle chuyen doi data-pcd-review compact va large muot ma
+03-14-02,Cong-cu-gan-nhan-nang-cao-OBB-SAM-VLM,Bo cong cu xoay Oriented Bounding Box OBB,PASS,2026-11-18 09:16:13,Day du nut xoay -5 deg +5 deg 0 deg HBB->OBB Rotate [R] input goc va ho tro obb_pts
+03-14-03,Cong-cu-gan-nhan-nang-cao-OBB-SAM-VLM,Cong cu 1-Click Auto VLM Infer & Che do SAM Click,PASS,2026-11-18 09:16:14,Nut Auto VLM + SAM BBox tren modal va SAM Click Mode BAT/TAT hoat dong chuan
+03-14-04,Cong-cu-gan-nhan-nang-cao-OBB-SAM-VLM,Nut Changed frames Export to Server va Undo/Redo,PASS,2026-11-18 09:16:28,Nut Changed frames Export to Server Undo Redo va ? Phim tat san sang
+

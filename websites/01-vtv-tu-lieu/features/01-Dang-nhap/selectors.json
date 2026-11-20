@@ -1,0 +1,53 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/login?next=%2F",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "loginForm",
+      "type": "css",
+      "selector": "form",
+      "matchCount": 1,
+      "page": "/login",
+      "verifiedDate": "2026-11-03",
+      "note": "Biểu mẫu đăng nhập chính"
+    },
+    {
+      "name": "usernameInput",
+      "type": "css",
+      "selector": "input#username",
+      "matchCount": 1,
+      "page": "/login",
+      "verifiedDate": "2026-11-03",
+      "note": "Ô nhập Tên đăng nhập (name=username, required=true)"
+    },
+    {
+      "name": "passwordInput",
+      "type": "css",
+      "selector": "input#password",
+      "matchCount": 1,
+      "page": "/login",
+      "verifiedDate": "2026-11-03",
+      "note": "Ô nhập Mật khẩu (name=password, required=true)"
+    },
+    {
+      "name": "togglePasswordButton",
+      "type": "css",
+      "selector": "button[aria-label=\"Hiện mật khẩu\"]",
+      "matchCount": 1,
+      "page": "/login",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút bật/tắt hiển thị mật khẩu"
+    },
+    {
+      "name": "submitLoginButton",
+      "type": "css",
+      "selector": "form button[type=\"submit\"]",
+      "matchCount": 1,
+      "page": "/login",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút Đăng nhập"
+    }
+  ],
+  "note": "Đã kiểm chứng trực tiếp bằng evaluate_script trên trang /login. Không có iframe hoặc shadow DOM."
+}

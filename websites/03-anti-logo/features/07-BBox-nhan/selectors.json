@@ -1,0 +1,56 @@
+{
+  "featureId": "03-07",
+  "featureName": "BBox-nhan",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "thumbModal": {
+      "css": "#thumbModal",
+      "role": "dialog",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Hộp thoại xem chi tiết frame và chỉnh sửa BBox"
+    },
+    "thumbModalCloseButton": {
+      "css": "button#thumbModalClose",
+      "role": "button",
+      "text": "×",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút đóng hộp thoại #thumbModal"
+    },
+    "thumbModeBlurButton": {
+      "css": "button#thumbModeBlurBtn",
+      "role": "button",
+      "text": "Blur Normal",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút chế độ xem ảnh đã làm mờ (Blur Normal)"
+    },
+    "thumbModeBboxButton": {
+      "css": "button#thumbModeBboxBtn",
+      "role": "button",
+      "text": "BBox (Class + Conf / Sửa nhãn)",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút chuyển sang chế độ xem/sửa BBox và nhãn"
+    },
+    "bboxDrawModeButton": {
+      "css": "button#bboxDrawModeBtn",
+      "role": "button",
+      "text": "➕ Vẽ Box mới: TẮT",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút bật/tắt chế độ vẽ Box mới"
+    },
+    "bboxSaveButton": {
+      "css": "button#bboxSaveBtn",
+      "role": "button",
+      "text": "💾 Lưu BBox",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút lưu thay đổi BBox"
+    }
+  }
+}

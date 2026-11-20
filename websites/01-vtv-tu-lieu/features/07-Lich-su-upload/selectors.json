@@ -1,0 +1,35 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/warehouse-management",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "openUploadHistoryButton",
+      "type": "css",
+      "selector": "header button[title=\"Xem lịch sử upload\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút trên Header mở trang Lịch sử upload (/warehouse-management)"
+    },
+    {
+      "name": "uploadHistoryHeading",
+      "type": "css",
+      "selector": "main h1",
+      "matchCount": 1,
+      "page": "/warehouse-management",
+      "verifiedDate": "2026-11-03",
+      "note": "Tiêu đề Lịch sử upload"
+    },
+    {
+      "name": "uploadHistoryTable",
+      "type": "css",
+      "selector": "table",
+      "matchCount": 1,
+      "page": "/warehouse-management",
+      "verifiedDate": "2026-11-03",
+      "note": "Bảng lịch sử các video đã upload"
+    }
+  ],
+  "note": "Đã kiểm chứng trên trang /warehouse-management."
+}

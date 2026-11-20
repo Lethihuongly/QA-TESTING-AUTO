@@ -1,0 +1,48 @@
+{
+  "featureId": "03-05",
+  "featureName": "Multi-channel",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "heading": {
+      "css": "header h1",
+      "role": "heading",
+      "text": "VTV PCD Command Center",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Tiêu đề màn hình Multi-Channel"
+    },
+    "changedFramesButton": {
+      "css": "button#ccChangedFramesBtn",
+      "role": "button",
+      "text": "Changed frames (0)",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút xem các frame đã chọn/chỉnh sửa trên Command Center"
+    },
+    "exportZipButton": {
+      "css": "button#ccExportZipBtn",
+      "role": "button",
+      "text": "Export as Zip (0)",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút xuất file Zip trên Command Center"
+    },
+    "channelVideos": {
+      "css": "main video",
+      "role": "video",
+      "text": "",
+      "verified": true,
+      "matchCount": 3,
+      "notes": "3 phần tử video phát đồng thời 3 kênh SDI"
+    },
+    "userMenuButtonCC": {
+      "css": "button#userMenuBtnCC",
+      "role": "button",
+      "text": "vtv",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút menu tài khoản trên trang Command Center"
+    }
+  }
+}

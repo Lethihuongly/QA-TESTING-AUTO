@@ -1,0 +1,24 @@
+{
+  "featureId": "03-08",
+  "featureName": "Start-Stop",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "runButton": {
+      "css": "button#runBtn",
+      "role": "button",
+      "text": "👁️ Watch Active Live Stream",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút Start / Watch Active Live Stream"
+    },
+    "stopButton": {
+      "css": "button#stopBtn",
+      "role": "button",
+      "text": "Stop current stream",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút dừng luồng đang chạy (không bấm trên kênh LIVE)"
+    }
+  }
+}

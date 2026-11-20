@@ -1,0 +1,32 @@
+{
+  "featureId": "04-08",
+  "featureName": "Cau-hinh",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "configSelects": {
+      "css": "main select",
+      "role": "combobox",
+      "text": "",
+      "verified": true,
+      "matchCount": 3,
+      "notes": "3 hộp chọn cấu hình khi mở Menu: AI MODEL ENGINE, HÀNH ĐỘNG TRÊN LOGO, VIDEO QUẢNG CÁO"
+    },
+    "configNumberInputs": {
+      "css": "main input[type=\"number\"]",
+      "role": "spinbutton",
+      "text": "",
+      "verified": true,
+      "matchCount": 3,
+      "notes": "3 ô số cấu hình khi mở Menu: SAMPLE FPS, TIMEOUT VLM, THỜI GIAN DELAY BUFFER"
+    },
+    "uploadAdVideoButton": {
+      "css": "button[title=\"Upload video quảng cáo\"]",
+      "role": "button",
+      "text": "Upload",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút Upload video quảng cáo (không chạy ở lượt đầu)"
+    }
+  }
+}

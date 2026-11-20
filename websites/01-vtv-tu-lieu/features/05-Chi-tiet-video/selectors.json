@@ -1,0 +1,35 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/watch?video_id=be08b277-678b-4b51-868e-10dd4d92d6b2",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "videoElement",
+      "type": "css",
+      "selector": "video",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Trình phát video chính trên trang /watch"
+    },
+    {
+      "name": "segmentSidebar",
+      "type": "css",
+      "selector": "aside[aria-label=\"Danh sách phân đoạn\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Cột bên trái chứa danh sách các phân đoạn của video"
+    },
+    {
+      "name": "videoNoteRegion",
+      "type": "css",
+      "selector": "[aria-label=\"Ghi chú video\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Khối hiển thị tóm tắt/ghi chú chung của video"
+    }
+  ],
+  "note": "Đã kiểm chứng trực tiếp bằng evaluate_script trên trang /watch."
+}

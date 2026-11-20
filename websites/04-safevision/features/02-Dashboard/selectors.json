@@ -1,0 +1,40 @@
+{
+  "featureId": "04-02",
+  "featureName": "Dashboard",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "dashboardLogoLink": {
+      "css": "aside a[aria-label=\"Mở dashboard SafeVision\"]",
+      "role": "link",
+      "text": "Mở dashboard SafeVision",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Link logo mở trang Bảng Điều Khiển Tổng Quan (/)"
+    },
+    "heading": {
+      "css": "main h1",
+      "role": "heading",
+      "text": "Bảng Điều Khiển Tổng Quan",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Tiêu đề chính trang Dashboard"
+    },
+    "channelStatusTable": {
+      "css": "main table",
+      "role": "table",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Bảng TÌNH TRẠNG CHI TIẾT KÊNH TRUYỀN HÌNH trên Dashboard"
+    },
+    "channelStatusRows": {
+      "css": "main table tbody tr",
+      "role": "row",
+      "text": "",
+      "verified": true,
+      "matchCount": 9,
+      "notes": "9 dòng kênh truyền hình VTV1..VTV10 trong bảng tổng quan"
+    }
+  }
+}

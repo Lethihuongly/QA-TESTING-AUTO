@@ -1,0 +1,26 @@
+Case_ID,Chuc_nang,Mo_ta,Ket_qua,Thoi_gian,Ghi_chu
+02-01-01,Dang-nhap,Truy cap trang dang nhap CMCATI Highlight,PASS,2026-11-18 09:17:42,Dieu huong ve /login?next=%2Fmatches tieu de CMCATI Highlight form input day du
+02-01-02,Dang-nhap,Dang nhap hop le luong chinh,BLOCKED,2026-11-18 09:17:42,Phien dang nhap het han - cho nguoi dung dang nhap thu cong tren Chrome MCP
+02-01-03,Dang-nhap,Kiem tra trang thai validation form rong,PASS,2026-11-18 09:17:47,checkValidity()=false usernameMissing=true form chan submit rong dung spec
+02-02-01,Danh-sach-tran,Xem danh sach tran dau /matches,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-02-02,Danh-sach-tran,Chuyen trang danh sach tran dau,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-02-03,Danh-sach-tran,Kiem tra thong tin the tran dau,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-03-01,Tim-kiem-loc,Tim kiem tran dau theo ten cau lac bo,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-03-02,Tim-kiem-loc,Loc tran dau theo giai dau,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-03-03,Tim-kiem-loc,Loc tran dau theo trang thai BUG-02-03,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de retest
+02-04-01,Chi-tiet-tran,Mo trang chi tiet tran dau hop le,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-04-02,Chi-tiet-tran,Xem thong tin chi tiet tran va doi hinh,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-04-03,Chi-tiet-tran,Truy cap tran dau khong ton tai 404 BUG-02-02,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de retest
+02-05-01,Video-playback,Phat video HLS tran dau 1080p BUG-02-01,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-05-02,Video-playback,Timeline phan doan su kien tran dau,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-05-03,Video-playback,Controls player khi tran dau chua co video,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-06-01,Highlight-upload,Tao video highlight tu dong tu su kien,NOT_RUN,2026-11-18 09:17:47,Ngoai pham vi chi doc
+02-06-02,Highlight-upload,Upload video ghi hinh tran dau moi,NOT_RUN,2026-11-18 09:17:47,Ngoai pham vi chi doc
+02-06-03,Highlight-upload,Xoa hoac sua thong tin tran dau,NOT_RUN,2026-11-18 09:17:47,Ngoai pham vi chi doc
+02-07-01,Tai-khoan-dang-xuat,Hien thi thong tin tai khoan nguoi dung,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-07-02,Tai-khoan-dang-xuat,Thuc hien dang xuat khoi he thong,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-07-03,Tai-khoan-dang-xuat,Kiem tra route guard khi truy cap truc tiep,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-08-01,Giao-dien-responsive,Kiem tra header va menu tren desktop,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-08-02,Giao-dien-responsive,Kiem tra bo cuc danh sach tran va filter,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+02-08-03,Giao-dien-responsive,Kiem tra footer va ban quyen he thong,BLOCKED,2026-11-18 09:17:47,Cho dang nhap lai tren Chrome MCP de giai phong
+

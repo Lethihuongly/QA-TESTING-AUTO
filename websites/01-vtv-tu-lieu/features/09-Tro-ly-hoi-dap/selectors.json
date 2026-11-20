@@ -1,0 +1,53 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/watch?video_id=be08b277-678b-4b51-868e-10dd4d92d6b2",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "openVideoChatButton",
+      "type": "css",
+      "selector": "button[aria-label=\"Mở trợ lý hỏi đáp video\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút nổi mở khung Trợ lý hỏi đáp video"
+    },
+    {
+      "name": "closeVideoChatButton",
+      "type": "css",
+      "selector": "button[aria-label=\"Đóng trợ lý hỏi đáp\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút đóng khung Trợ lý hỏi đáp video"
+    },
+    {
+      "name": "videoEditSettingsButton",
+      "type": "css",
+      "selector": "button[aria-label=\"Cài đặt dựng video\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút cài đặt dựng video trong khung hỏi đáp"
+    },
+    {
+      "name": "chatQuestionTextarea",
+      "type": "css",
+      "selector": "textarea[aria-label=\"Câu hỏi về video\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Ô nhập câu hỏi về video"
+    },
+    {
+      "name": "sendQuestionButton",
+      "type": "css",
+      "selector": "button[aria-label=\"Gửi câu hỏi\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút gửi câu hỏi (disabled khi ô nhập trống)"
+    }
+  ],
+  "note": "Đã kiểm chứng trực tiếp bằng evaluate_script trên trang /watch."
+}

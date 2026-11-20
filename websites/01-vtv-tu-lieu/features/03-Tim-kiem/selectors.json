@@ -1,0 +1,44 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/results",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "headerSearchInput",
+      "type": "css",
+      "selector": "header input[aria-label=\"Search input\"]",
+      "matchCount": 1,
+      "page": "/results",
+      "verifiedDate": "2026-11-03",
+      "note": "Ô nhập từ khóa tìm kiếm trên Header ở trang /results"
+    },
+    {
+      "name": "headerSearchSubmitButton",
+      "type": "css",
+      "selector": "header button[aria-label=\"Search current query\"]",
+      "matchCount": 1,
+      "page": "/results",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút gửi truy vấn tìm kiếm trên trang /results"
+    },
+    {
+      "name": "clearSearchInputButton",
+      "type": "css",
+      "selector": "button[aria-label=\"Clear search input\"]",
+      "matchCount": 1,
+      "page": "/results",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút xóa từ khóa đang nhập trong ô tìm kiếm"
+    },
+    {
+      "name": "imageSearchDialog",
+      "type": "css",
+      "selector": "[role=\"dialog\"][aria-label=\"Tìm kiếm bằng hình ảnh\"]",
+      "matchCount": 1,
+      "page": "/",
+      "verifiedDate": "2026-11-03",
+      "note": "Hộp thoại Tìm kiếm bằng hình ảnh khi mở từ nút Upload content"
+    }
+  ],
+  "note": "Đã kiểm chứng trên trang / và /results."
+}

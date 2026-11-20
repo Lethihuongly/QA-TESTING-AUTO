@@ -1,0 +1,48 @@
+{
+  "featureId": "03-03",
+  "featureName": "Danh-sach-kenh",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "channel1Link": {
+      "css": "a[href=\"/channel/1\"]",
+      "role": "link",
+      "text": "Kênh 1",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Link chuyển sang Kênh 1 (virtual-sdi-BONGDA_HD)"
+    },
+    "channel2Link": {
+      "css": "a[href=\"/channel/2\"]",
+      "role": "link",
+      "text": "Kênh 2",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Link chuyển sang Kênh 2 (virtual-sdi-THETHAO_TINTUC_HD)"
+    },
+    "channel3Link": {
+      "css": "a[href=\"/channel/3\"]",
+      "role": "link",
+      "text": "Kênh 3",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Link chuyển sang Kênh 3 (virtual-sdi-HAY_TV)"
+    },
+    "multiChannelLink": {
+      "css": "a[href=\"/channels\"]",
+      "role": "link",
+      "text": "📺 Multi-Channel (3 SDI)",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Link mở màn hình giám sát 3 kênh đồng thời"
+    },
+    "sdiInputsSelect": {
+      "css": "select#sdiInputs",
+      "role": "listbox",
+      "text": "Live SDI inputs (auto-detected)",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Danh sách các nguồn SDI trực tiếp của kênh hiện tại"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "featureId": "02-04",
+  "featureName": "Chi-tiet-tran-dau",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "backToMatchesLink": {
+      "css": "a[aria-label=\"Back to matches\"]",
+      "role": "link",
+      "text": "Back to matches",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút quay lại danh sách trận đấu từ trang chi tiết"
+    },
+    "videoElement": {
+      "css": "video",
+      "role": "video",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Phần tử HTML5 video phát bản ghi trận đấu"
+    },
+    "seekSlider": {
+      "css": "[role=\"slider\"][aria-label=\"Vị trí phát\"]",
+      "role": "slider",
+      "text": "Vị trí phát",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh trượt vị trí phát trên timeline"
+    }
+  }
+}

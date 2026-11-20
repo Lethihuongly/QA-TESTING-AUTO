@@ -1,0 +1,56 @@
+{
+  "featureId": "04-01",
+  "featureName": "Dang-nhap",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "heading": {
+      "css": "main h3",
+      "role": "heading",
+      "text": "Đăng nhập VTV PCD",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Tiêu đề form đăng nhập SafeVision"
+    },
+    "loginForm": {
+      "css": "form",
+      "role": "form",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Form đăng nhập tại /login"
+    },
+    "usernameInput": {
+      "css": "input#username",
+      "role": "textbox",
+      "text": "Tên đăng nhập",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Ô nhập tên đăng nhập (required)"
+    },
+    "passwordInput": {
+      "css": "input#password",
+      "role": "textbox",
+      "text": "Mật khẩu",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Ô nhập mật khẩu (required)"
+    },
+    "togglePasswordButton": {
+      "css": "button[aria-label=\"Hiện mật khẩu\"]",
+      "role": "button",
+      "text": "Hiện mật khẩu",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút bật/tắt hiển thị mật khẩu"
+    },
+    "submitButton": {
+      "css": "form button[type=\"submit\"]",
+      "role": "button",
+      "text": "Đăng nhập",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút gửi form đăng nhập"
+    }
+  }
+}

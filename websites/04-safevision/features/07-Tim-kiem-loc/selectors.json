@@ -1,0 +1,24 @@
+{
+  "featureId": "04-07",
+  "featureName": "Tim-kiem-loc",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "channelSearchInput": {
+      "css": "main input[placeholder=\"Tìm kiếm theo tên hoặc mã kênh...\"]",
+      "role": "textbox",
+      "text": "Tìm kiếm theo tên hoặc mã kênh...",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Ô tìm kiếm theo tên hoặc mã kênh tại trang /channels"
+    },
+    "headerGlobalSearchInput": {
+      "css": "header input[placeholder=\"Tìm kiếm kênh, logo, kết quả...\"]",
+      "role": "textbox",
+      "text": "Tìm kiếm kênh, logo, kết quả...",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Ô tìm kiếm toàn cục trên thanh header (⌘K)"
+    }
+  }
+}

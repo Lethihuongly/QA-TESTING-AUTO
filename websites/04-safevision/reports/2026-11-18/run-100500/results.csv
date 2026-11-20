@@ -1,0 +1,30 @@
+Case_ID,Chuc_nang,Mo_ta,Ket_qua,Thoi_gian,Ghi_chu
+04-01-01,Dang-nhap,Truy cap trang dang nhap VTV PCD SafeVision,PASS,2026-11-18 10:06:01,Dieu huong ve /login?next=%2F tieu de VTV Logo Detection form input day du
+04-01-02,Dang-nhap,Dang nhap hop le luong chinh,BLOCKED,2026-11-18 10:06:01,Phien dang nhap het han - cho nguoi dung dang nhap thu cong tren Chrome MCP
+04-01-03,Dang-nhap,Kiem tra trang thai validation form rong,PASS,2026-11-18 10:06:03,checkValidity()=false usernameMissing=true form chan submit rong dung spec
+04-02-01,Dashboard,Xem Dashboard tong quan giam sat logo,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-02-02,Dashboard,Cac the thong ke tong quan so kenh canh bao,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-02-03,Dashboard,Khoi thong ke phan loai logo BUG-04-01,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-03-01,Danh-sach-kenh,Xem danh sach 9 kenh giam sat BUG-04-04,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-03-02,Danh-sach-kenh,Trang thai hoat dong cac kenh online offline,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-03-03,Danh-sach-kenh,Chuyen che do xem Grid va List kenh,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-04-01,Chi-tiet-kenh,Mo trang chi tiet kenh hop le /channels/:id,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-04-02,Chi-tiet-kenh,Thong tin cau hinh va thong so ky thuat kenh,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-04-03,Chi-tiet-kenh,Lich su vi pham gan nhat cua kenh,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-05-01,Xem-truc-tiep,Phat video truc tiep luong xu ly AI,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-05-02,Xem-truc-tiep,Do luong do muot phat video luong goc BUG-04-02,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-05-03,Xem-truc-tiep,Bat tat overlay bounding box logo,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-06-01,Canh-bao,Danh sach canh bao vi pham thoi gian thuc,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-06-02,Canh-bao,Xem anh chup vi pham va thong tin nhan,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-06-03,Canh-bao,Xac nhan hoac bo qua canh bao vi pham,NOT_RUN,2026-11-18 10:06:03,Ngoai pham vi chi doc
+04-07-01,Tim-kiem-loc,Loc canh bao theo kenh va thoi gian,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-07-02,Tim-kiem-loc,Loc theo nhan logo va muc do tin cay,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-07-03,Tim-kiem-loc,O tim kiem nhanh tren Header BUG-04-03,BLOCKED,2026-11-18 10:06:03,Cho xac nhan spec UI tren header tu PO
+04-08-01,Cau-hinh,Xem trang cau hinh he thong,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-08-02,Cau-hinh,Thay doi nguong tin cay va do nhay AI,NOT_RUN,2026-11-18 10:06:03,Ngoai pham vi chi doc
+04-08-03,Cau-hinh,Quan ly danh sach nhan logo he thong,NOT_RUN,2026-11-18 10:06:03,Ngoai pham vi chi doc
+04-09-01,Tai-khoan-dang-xuat,Thong tin tai khoan nguoi dung VTV,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-09-02,Tai-khoan-dang-xuat,Thuc hien dang xuat khoi he thong,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-09-03,Tai-khoan-dang-xuat,Kiem tra route guard khi chua xac thuc,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+04-10-01,Giao-dien-responsive,Kiem tra header va sidebar tren desktop,BLOCKED,2026-11-18 10:06:03,Cho dang nhap lai tren Chrome MCP de giai phong
+

@@ -1,0 +1,32 @@
+{
+  "featureId": "02-08",
+  "featureName": "Tai-khoan-dang-xuat",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "accountMenuButton": {
+      "css": "button[aria-label=\"Mở menu tài khoản\"]",
+      "role": "button",
+      "text": "Mở menu tài khoản",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút mở menu tài khoản ở góc trên bên phải"
+    },
+    "accountMenu": {
+      "css": "[role=\"menu\"]",
+      "role": "menu",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Menu tài khoản khi đang mở"
+    },
+    "logoutMenuItem": {
+      "css": "[role=\"menu\"] [role=\"menuitem\"]",
+      "role": "menuitem",
+      "text": "Đăng xuất",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Mục Đăng xuất trong menu tài khoản"
+    }
+  }
+}

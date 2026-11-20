@@ -1,0 +1,49 @@
+{
+  "featureId": "03-12",
+  "featureName": "Kiem-tra-luong-SDI-Input",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-09",
+  "selectors": {
+    "sdiInputsSelect": {
+      "css": "select#sdiInputs",
+      "role": "listbox",
+      "text": "Live SDI inputs (auto-detected)",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Danh sách các luồng SDI tự động nhận diện (Live SDI Stream và Virtual SDI 01..03)"
+    },
+    "defaultVideosSelect": {
+      "css": "select#defaultVideos",
+      "role": "listbox",
+      "text": "Videos",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Danh sách video có sẵn (tự động disabled=true khi có luồng SDI/Live đang phát)"
+    },
+    "activeStreamLockNotice": {
+      "css": "#activeStreamLockNotice",
+      "role": "generic",
+      "text": "🔒 Active stream running: other video and SDI selections are locked until the current stream is stopped.",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thông báo khóa chọn nguồn phát khi đang có luồng hoạt động"
+    },
+    "watchOrRunButton": {
+      "css": "button#runBtn",
+      "role": "button",
+      "text": "👁️ Watch Active Live Stream",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút xem luồng SDI đang hoạt động hoặc khởi chạy kiểm duyệt"
+    },
+    "aiLaneBadge": {
+      "css": "#aiLaneBadge",
+      "role": "generic",
+      "text": "AI lane: ACTIVE",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Trạng thái luồng xử lý AI cho đầu vào SDI đang phát"
+    }
+  }
+}
+

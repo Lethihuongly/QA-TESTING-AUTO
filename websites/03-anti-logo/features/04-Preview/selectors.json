@@ -1,0 +1,32 @@
+{
+  "featureId": "03-04",
+  "featureName": "Preview",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "previewMethodSelect": {
+      "css": "select#previewMethod",
+      "role": "combobox",
+      "text": "Preview Method",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Hộp chọn phương thức xem preview (HLS, WebRTC, MJPEG)"
+    },
+    "watchLiveButton": {
+      "css": "button#runBtn",
+      "role": "button",
+      "text": "👁️ Watch Active Live Stream",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút xem luồng trực tiếp đang hoạt động"
+    },
+    "previewVideo": {
+      "css": "video",
+      "role": "video",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Phần tử video phát luồng preview trên trang kênh đơn"
+    }
+  }
+}

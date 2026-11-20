@@ -1,0 +1,26 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/warehouse-management?tab=face",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "faceAndLocationTable",
+      "type": "css",
+      "selector": "table",
+      "matchCount": 1,
+      "page": "/warehouse-management?tab=face",
+      "verifiedDate": "2026-11-03",
+      "note": "Bảng dữ liệu khuôn mặt (?tab=face) và địa danh (?tab=location)"
+    },
+    {
+      "name": "paginationNav",
+      "type": "css",
+      "selector": "nav[aria-label=\"pagination\"]",
+      "matchCount": 1,
+      "page": "/warehouse-management?tab=face",
+      "verifiedDate": "2026-11-03",
+      "note": "Thanh phân trang danh sách khuôn mặt / địa danh"
+    }
+  ],
+  "note": "Đã kiểm chứng trên /warehouse-management?tab=face và /warehouse-management?tab=location."
+}

@@ -1,0 +1,129 @@
+{
+  "featureId": "03-14",
+  "featureName": "Cong-cu-gan-nhan-nang-cao-OBB-SAM-VLM",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-18",
+  "selectors": {
+    "largeReviewToggle": {
+      "css": "button#singleLargeReviewToggle",
+      "role": "button",
+      "text": "Compact / Large Review",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút chuyển đổi bố cục xem mở rộng cho tester"
+    },
+    "changedFramesBtn": {
+      "css": "button#changedFramesBtn",
+      "role": "button",
+      "text": "Changed frames",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút lọc danh sách các frame đã sửa BBox hoặc đã chọn"
+    },
+    "exportReportedZipBtn": {
+      "css": "button#exportReportedZipBtn",
+      "role": "button",
+      "text": "Export to Server",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút xuất dữ liệu gán nhãn lên server"
+    },
+    "thumbModeVlmBtn": {
+      "css": "button#thumbModeVlmBtn",
+      "role": "button",
+      "text": "🤖 Auto VLM + SAM BBox",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút 1-click chạy VLM + MobileSAM trên thanh xem modal"
+    },
+    "bboxVlmInferBtn": {
+      "css": "button#bboxVlmInferBtn",
+      "role": "button",
+      "text": "🤖 Auto VLM + SAM",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút chạy pipeline VLM + SAM trên thanh BBox"
+    },
+    "bboxRotateLeft": {
+      "css": "button#bboxRotateLeft",
+      "role": "button",
+      "text": "↶ −5°",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Xoay ngược chiều kim đồng hồ 5 độ"
+    },
+    "bboxRotateRight": {
+      "css": "button#bboxRotateRight",
+      "role": "button",
+      "text": "↷ +5°",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Xoay thuận chiều kim đồng hồ 5 độ"
+    },
+    "bboxAngleReset": {
+      "css": "button#bboxAngleReset",
+      "role": "button",
+      "text": "0°",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Reset góc xoay về 0 độ"
+    },
+    "bboxConvertObb": {
+      "css": "button#bboxConvertObb",
+      "role": "button",
+      "text": "HBB → OBB",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Chuyển đổi hộp bao ngang sang hộp bao xoay"
+    },
+    "bboxRotateMode": {
+      "css": "button#bboxRotateMode",
+      "role": "button",
+      "text": "Rotate [R]",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Kích hoạt chế độ xoay chuột trực quan"
+    },
+    "bboxAngleInput": {
+      "css": "input#bboxAngleInput",
+      "role": "spinbutton",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Trường nhập giá trị góc xoay độ"
+    },
+    "bboxSamClickMode": {
+      "css": "button#bboxSamClickMode",
+      "role": "button",
+      "text": "🎯 Click SAM",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Chế độ phân đoạn click MobileSAM"
+    },
+    "bboxUndo": {
+      "css": "button#bboxUndo",
+      "role": "button",
+      "text": "Undo",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Hoàn tác thao tác chỉnh sửa"
+    },
+    "bboxRedo": {
+      "css": "button#bboxRedo",
+      "role": "button",
+      "text": "Redo",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Làm lại thao tác chỉnh sửa"
+    },
+    "bboxShortcutHelp": {
+      "css": "button#bboxShortcutHelp",
+      "role": "button",
+      "text": "? Phím tắt",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Mở bảng hướng dẫn phím tắt bàn phím"
+    }
+  }
+}
+

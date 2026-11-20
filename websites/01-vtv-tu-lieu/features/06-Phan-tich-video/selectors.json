@@ -1,0 +1,44 @@
+{
+  "status": "VERIFIED",
+  "page": "https://vtvtulieu.cmcati.vn/watch?video_id=be08b277-678b-4b51-868e-10dd4d92d6b2",
+  "verifiedDate": "2026-11-03",
+  "elements": [
+    {
+      "name": "clipAnalysisRegion",
+      "type": "css",
+      "selector": "[aria-label=\"Phân tích clip\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Khối Phân tích clip bên phải trình phát video"
+    },
+    {
+      "name": "analysisTabs",
+      "type": "css",
+      "selector": "[aria-label=\"Phân tích clip\"] [role=\"tablist\"] [role=\"tab\"]",
+      "matchCount": 5,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "5 tab phân tích: Tóm tắt, Cảnh, Khuôn mặt, OCR, Lời thoại"
+    },
+    {
+      "name": "prevSegmentButton",
+      "type": "css",
+      "selector": "button[aria-label=\"Phân đoạn trước\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút chuyển về phân đoạn trước"
+    },
+    {
+      "name": "nextSegmentButton",
+      "type": "css",
+      "selector": "button[aria-label=\"Phân đoạn sau\"]",
+      "matchCount": 1,
+      "page": "/watch",
+      "verifiedDate": "2026-11-03",
+      "note": "Nút chuyển sang phân đoạn tiếp theo"
+    }
+  ],
+  "note": "Đã kiểm chứng trực tiếp bằng evaluate_script trên trang /watch."
+}

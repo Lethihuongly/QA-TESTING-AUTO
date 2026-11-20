@@ -1,0 +1,48 @@
+{
+  "featureId": "02-05",
+  "featureName": "Phat-video",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "videoPlayer": {
+      "css": "video",
+      "role": "video",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Phần tử video chính của trận đấu"
+    },
+    "playPauseButton": {
+      "css": "button[aria-label=\"Tạm dừng\"], button[aria-label=\"Phát\"]",
+      "role": "button",
+      "text": "Tạm dừng / Phát",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút Play/Pause của trình phát"
+    },
+    "replaySegmentButton": {
+      "css": "button[aria-label=\"Phát lại đoạn\"]",
+      "role": "button",
+      "text": "Phát lại đoạn",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút phát lại phân đoạn hiện tại"
+    },
+    "fullscreenButton": {
+      "css": "button[aria-label=\"Toàn màn hình\"]",
+      "role": "button",
+      "text": "Toàn màn hình",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút bật chế độ toàn màn hình"
+    },
+    "seekSlider": {
+      "css": "[role=\"slider\"][aria-label=\"Vị trí phát\"]",
+      "role": "slider",
+      "text": "Vị trí phát",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Thanh trượt tua vị trí phát video"
+    }
+  }
+}

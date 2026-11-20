@@ -1,0 +1,48 @@
+{
+  "featureId": "04-06",
+  "featureName": "Canh-bao",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "detectionsTable": {
+      "css": "main table",
+      "role": "table",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Bảng Danh sách các phát hiện của kênh"
+    },
+    "detectionRows": {
+      "css": "main table tbody tr",
+      "role": "row",
+      "text": "",
+      "verified": true,
+      "matchCount": 10,
+      "notes": "10 dòng bản ghi phát hiện trên mỗi trang"
+    },
+    "viewLargeImageButtons": {
+      "css": "main table button[title=\"Xem ảnh lớn\"]",
+      "role": "button",
+      "text": "Xem ảnh lớn",
+      "verified": true,
+      "matchCount": 10,
+      "notes": "Các nút mở hộp thoại Xem chi tiết ảnh snapshot"
+    },
+    "prevPageButton": {
+      "css": "button[title=\"Trang trước\"]",
+      "role": "button",
+      "text": "Trang trước",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút về trang trước của bảng phát hiện"
+    },
+    "nextPageButton": {
+      "css": "button[title=\"Trang sau\"]",
+      "role": "button",
+      "text": "Trang sau",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút sang trang sau của bảng phát hiện"
+    }
+  }
+}

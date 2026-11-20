@@ -1,0 +1,72 @@
+{
+  "featureId": "03-06",
+  "featureName": "AI-Flag-Logs",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "flag1OnlyCheckbox": {
+      "css": "input#flag1OnlyToggle",
+      "role": "checkbox",
+      "text": "Show only flag=1",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Checkbox lọc chỉ hiển thị các frame có Flag=1"
+    },
+    "aiFlagOneCountSpan": {
+      "css": "span#aiFlagOneCount",
+      "role": "generic",
+      "text": "0",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Bộ đếm Flag=1 count trên thanh trạng thái AI lane"
+    },
+    "frameLogUpButton": {
+      "css": "button#frameLogUpBtn",
+      "role": "button",
+      "text": "^",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút chuyển lên trang frame mới hơn"
+    },
+    "frameLogDownButton": {
+      "css": "button#frameLogDownBtn",
+      "role": "button",
+      "text": "v",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút chuyển xuống trang frame cũ hơn"
+    },
+    "frameLogLatestButton": {
+      "css": "button#frameLogLatestBtn",
+      "role": "button",
+      "text": "Latest",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút nhảy về các frame mới nhất"
+    },
+    "frameLogJumpInput": {
+      "css": "input#frameLogJumpInput",
+      "role": "spinbutton",
+      "text": "Jump to Frame",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Ô nhập số thứ tự frame cần tìm"
+    },
+    "frameLogSearchButton": {
+      "css": "button#frameLogSearchBtn",
+      "role": "button",
+      "text": "History",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút tìm kiếm frame trong lịch sử"
+    },
+    "logTable": {
+      "css": "table.log-table",
+      "role": "table",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Bảng danh sách frame logs"
+    }
+  }
+}

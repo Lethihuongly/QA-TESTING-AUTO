@@ -1,0 +1,48 @@
+{
+  "featureId": "02-06",
+  "featureName": "Highlight",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "highlightDialog": {
+      "css": "[role=\"dialog\"]",
+      "role": "dialog",
+      "text": "Danh sách Highlight",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Hộp thoại Danh sách Highlight khi đang mở"
+    },
+    "highlightTable": {
+      "css": "[role=\"dialog\"] table",
+      "role": "table",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Bảng danh sách các bản xuất highlight"
+    },
+    "highlightRows": {
+      "css": "[role=\"dialog\"] table tbody tr",
+      "role": "row",
+      "text": "",
+      "verified": true,
+      "matchCount": 2,
+      "notes": "Các dòng bản xuất highlight (trận Benfica vs Celtic có 2 bản xuất)"
+    },
+    "youtubeLinks": {
+      "css": "[role=\"dialog\"] table a[href*=\"youtube.com/watch\"]",
+      "role": "link",
+      "text": "YouTube",
+      "verified": true,
+      "matchCount": 2,
+      "notes": "Liên kết mở video highlight đã đăng lên YouTube"
+    },
+    "downloadHighlightButtons": {
+      "css": "[role=\"dialog\"] table button[aria-label=\"Tải highlight\"]",
+      "role": "button",
+      "text": "Tải highlight",
+      "verified": true,
+      "matchCount": 2,
+      "notes": "Nút tải file highlight về máy"
+    }
+  }
+}

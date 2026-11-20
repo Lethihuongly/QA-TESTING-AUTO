@@ -1,0 +1,40 @@
+{
+  "featureId": "03-02",
+  "featureName": "Dashboard",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "homeLink": {
+      "css": "a[href=\"/\"]",
+      "role": "link",
+      "text": "VTV PCD",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Link trang chủ VTV PCD trên thanh điều hướng"
+    },
+    "defaultVideosSelect": {
+      "css": "select#defaultVideos",
+      "role": "listbox",
+      "text": "Videos",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Danh sách 33 video mẫu (disabled khi đang chạy luồng LIVE)"
+    },
+    "yoloClassSearchInput": {
+      "css": "input#yoloClassSearch",
+      "role": "searchbox",
+      "text": "Search classes",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Ô tìm kiếm nhanh trong 106 YOLO banner classes"
+    },
+    "yoloClassCheckboxes": {
+      "css": "input[id^=\"yolo-banner-class-\"]",
+      "role": "checkbox",
+      "text": "",
+      "verified": true,
+      "matchCount": 106,
+      "notes": "Danh sách 106 checkbox nhãn YOLO (0..105)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+ID,Chuc_nang,Uu_tien,Pham_vi,Xac_nhan_UI,Trang_thai
+04-01,Dang-nhap,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+04-02,Dashboard,P1,Doc-du-lieu,DA_XAC_NHAN,FAIL
+04-03,Danh-sach-kenh,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+04-04,Chi-tiet-kenh,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+04-05,Xem-truc-tiep,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+04-06,Canh-bao,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+04-07,Tim-kiem-loc,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+04-08,Cau-hinh,P1,Thu-nghiem-co-kiem-soat,DA_XAC_NHAN,PASS
+04-09,Tai-khoan-dang-xuat,P1,Doc-du-lieu,DA_XAC_NHAN,PASS

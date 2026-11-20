@@ -1,0 +1,32 @@
+{
+  "featureId": "04-04",
+  "featureName": "Chi-tiet-kenh",
+  "version": "1.0.0",
+  "lastVerified": "2026-11-03",
+  "selectors": {
+    "backToChannelsButton": {
+      "css": "button[title=\"Quay lại danh sách kênh\"]",
+      "role": "button",
+      "text": "Quay lại",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Nút quay lại danh sách kênh từ trang chi tiết"
+    },
+    "channelTitleHeading": {
+      "css": "main h2",
+      "role": "heading",
+      "text": "VTV3",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Tiêu đề tên kênh trong khung trạng thái"
+    },
+    "detectionsTable": {
+      "css": "main table",
+      "role": "table",
+      "text": "",
+      "verified": true,
+      "matchCount": 1,
+      "notes": "Bảng Danh sách các phát hiện của kênh"
+    }
+  }
+}

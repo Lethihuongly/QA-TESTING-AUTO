@@ -1,0 +1,15 @@
+ID,Chuc_nang,Uu_tien,Pham_vi,Xac_nhan_UI,Trang_thai
+03-01,Dang-nhap,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+03-02,Dashboard,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+03-03,Danh-sach-kenh,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+03-04,Preview,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+03-05,Multi-channel,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+03-06,AI-Flag-Logs,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+03-07,BBox-nhan,P2,Thu-nghiem-co-kiem-soat,DA_XAC_NHAN,PASS
+03-08,Start-Stop,P1,Thu-nghiem-co-kiem-soat,DA_XAC_NHAN,NOT_RUN
+03-09,Cau-hinh-FPS-blur-ROI,P1,Thu-nghiem-co-kiem-soat,DA_XAC_NHAN,NOT_RUN
+03-10,Upload-video-logo,P1,Thu-nghiem-co-kiem-soat,DA_XAC_NHAN,NOT_RUN
+03-11,Tai-khoan-dang-xuat,P1,Doc-du-lieu,DA_XAC_NHAN,PASS
+03-12,Kiem-tra-luong-SDI-Input,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+03-13,Tiep-tuc-gan-nhan-va-Phien-video,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
+03-14,Cong-cu-gan-nhan-nang-cao-OBB-SAM-VLM,P0,Doc-du-lieu,DA_XAC_NHAN,PASS
